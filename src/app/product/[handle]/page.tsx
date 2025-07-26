@@ -39,7 +39,7 @@ const ProductPage = () => {
     }
 
     const variantId = product.variants[0].id
-    console.log("📦 Adding Variant ID:", variantId)  // ✅ LOG HERE
+    console.log("📦 Adding Variant ID:", variantId)  
 
     await addItemToCart(variantId, 1)
     alert("✅ Product added to cart")

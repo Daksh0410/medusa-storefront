@@ -13,9 +13,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "src",                          // ✅ Set baseUrl to "src"
+    "baseUrl": "src",                        
     "paths": {
-      "@/*": ["*"]                             // ✅ This maps "@/lib/..." to "src/lib/..."
+      "@/*": ["*"]                           
     },
     "plugins": [
       {
